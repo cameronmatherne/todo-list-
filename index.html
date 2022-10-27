@@ -11,8 +11,30 @@
     <script src="script.js"></script>
 
     <div class="container">
-        <h1 class="title"> To do list</h1>
-        <button class="addNote" onclick="openForm"> Add note </button>
+        <h1 class="title"> SmartNotes </h1>
+        <button class="addNote" onclick="openForm()"> Add note </button>
     </div>
+
+    <div id="myForm" class="form"> 
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="title">Title:</label>
+            <input type="text" id="noteTitle" name="title" />
+          </li>
+          <li>
+            <label for="dueDate">Due Date:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="notes">  
+              notes go here
+    </div>
+
+
+
 </body>
 </html>
