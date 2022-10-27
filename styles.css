@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    padding-top: 125px;
+    gap: 20px;
+}
+
+
+
+
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.addNote {
+    display: flex;
+    align-items: center;
+
+}
